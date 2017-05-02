@@ -2,7 +2,7 @@ Tools for merging pandas dataframes using geohashing.
 
 Note: none of this is tested, that's a TODO.
 
-Geohashing [python implementation](https://github.com/vinsci/geohash/) is a way to encode latitude and longitude into a single string. The length of the string encodes the amount of precision, and nearby places will *usually* have similar prefixes.
+Geohashing ([python implementation](https://github.com/vinsci/geohash/)) is a way to encode latitude and longitude into a single string. The length of the string encodes the amount of precision, and nearby places will *usually* have similar prefixes.
 
 The problem this is meant to solve is as follows:
 * suppose you have two lists of (lat, long) points with different precision
